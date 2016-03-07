@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C31FD6D31C82DC6800A8D6A9 /* PositionPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31FD6D21C82DC6800A8D6A9 /* PositionPeople.swift */; };
+		C374D0BB1C833EDF003B3A12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C374D0BA1C833EDF003B3A12 /* Main.storyboard */; };
+		C39E6CDC1C80912700566181 /* AddName.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39E6CDB1C80912700566181 /* AddName.swift */; };
+		C3D101291C808A7E00BEB25E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D101281C808A7E00BEB25E /* AppDelegate.swift */; };
+		C3D101311C808A7E00BEB25E /* DeathNote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3D1012F1C808A7E00BEB25E /* DeathNote.xcdatamodeld */; };
+		C3D101331C808A7E00BEB25E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3D101321C808A7E00BEB25E /* Assets.xcassets */; };
+		C3D101361C808A7E00BEB25E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3D101341C808A7E00BEB25E /* LaunchScreen.storyboard */; };
+		C3D101411C808A7E00BEB25E /* DeathNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D101401C808A7E00BEB25E /* DeathNoteTests.swift */; };
+		C3D1014C1C808A7E00BEB25E /* DeathNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D1014B1C808A7E00BEB25E /* DeathNoteUITests.swift */; };
+		C3D1015A1C808CF200BEB25E /* ListName.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D101591C808CF200BEB25E /* ListName.swift */; };
+		C3DADF601C80A76E00A42570 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DADF5F1C80A76E00A42570 /* People.swift */; };
+		C3DADF621C80B4C500A42570 /* DetailsPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DADF611C80B4C500A42570 /* DetailsPeople.swift */; };
+		C3DADF681C80EEA300A42570 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DADF671C80EEA300A42570 /* CustomCell.swift */; };
+		C3FF19371C8193E3003BD66A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FF19361C8193E3003BD66A /* ViewController.swift */; };
+		C3FF19391C81942A003BD66A /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FF19381C81942A003BD66A /* ScrollViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3D1013D1C808A7E00BEB25E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3D1011D1C808A7E00BEB25E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3D101241C808A7E00BEB25E;
+			remoteInfo = DeathNote;
+		};
+		C3D101481C808A7E00BEB25E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3D1011D1C808A7E00BEB25E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3D101241C808A7E00BEB25E;
+			remoteInfo = DeathNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C31FD6D21C82DC6800A8D6A9 /* PositionPeople.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionPeople.swift; sourceTree = "<group>"; };
+		C374D0BA1C833EDF003B3A12 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C39E6CDB1C80912700566181 /* AddName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddName.swift; sourceTree = "<group>"; };
+		C3D101251C808A7E00BEB25E /* DeathNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeathNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D101281C808A7E00BEB25E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3D101301C808A7E00BEB25E /* DeathNote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DeathNote.xcdatamodel; sourceTree = "<group>"; };
+		C3D101321C808A7E00BEB25E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3D101351C808A7E00BEB25E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3D101371C808A7E00BEB25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3D1013C1C808A7E00BEB25E /* DeathNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeathNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D101401C808A7E00BEB25E /* DeathNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathNoteTests.swift; sourceTree = "<group>"; };
+		C3D101421C808A7E00BEB25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3D101471C808A7E00BEB25E /* DeathNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeathNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3D1014B1C808A7E00BEB25E /* DeathNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathNoteUITests.swift; sourceTree = "<group>"; };
+		C3D1014D1C808A7E00BEB25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3D101591C808CF200BEB25E /* ListName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListName.swift; sourceTree = "<group>"; };
+		C3DADF5F1C80A76E00A42570 /* People.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		C3DADF611C80B4C500A42570 /* DetailsPeople.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsPeople.swift; sourceTree = "<group>"; };
+		C3DADF671C80EEA300A42570 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		C3FF19361C8193E3003BD66A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3FF19381C81942A003BD66A /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3D101221C808A7E00BEB25E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D101391C808A7E00BEB25E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D101441C808A7E00BEB25E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3D1011C1C808A7E00BEB25E = {
+			isa = PBXGroup;
+			children = (
+				C3D101271C808A7E00BEB25E /* DeathNote */,
+				C3D1013F1C808A7E00BEB25E /* DeathNoteTests */,
+				C3D1014A1C808A7E00BEB25E /* DeathNoteUITests */,
+				C3D101261C808A7E00BEB25E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3D101261C808A7E00BEB25E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3D101251C808A7E00BEB25E /* DeathNote.app */,
+				C3D1013C1C808A7E00BEB25E /* DeathNoteTests.xctest */,
+				C3D101471C808A7E00BEB25E /* DeathNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3D101271C808A7E00BEB25E /* DeathNote */ = {
+			isa = PBXGroup;
+			children = (
+				C3D101281C808A7E00BEB25E /* AppDelegate.swift */,
+				C3D101321C808A7E00BEB25E /* Assets.xcassets */,
+				C374D0BA1C833EDF003B3A12 /* Main.storyboard */,
+				C3D101341C808A7E00BEB25E /* LaunchScreen.storyboard */,
+				C3D101371C808A7E00BEB25E /* Info.plist */,
+				C3D1012F1C808A7E00BEB25E /* DeathNote.xcdatamodeld */,
+				C3D101591C808CF200BEB25E /* ListName.swift */,
+				C39E6CDB1C80912700566181 /* AddName.swift */,
+				C3DADF5F1C80A76E00A42570 /* People.swift */,
+				C3DADF611C80B4C500A42570 /* DetailsPeople.swift */,
+				C3DADF671C80EEA300A42570 /* CustomCell.swift */,
+				C3FF19361C8193E3003BD66A /* ViewController.swift */,
+				C3FF19381C81942A003BD66A /* ScrollViewController.swift */,
+				C31FD6D21C82DC6800A8D6A9 /* PositionPeople.swift */,
+			);
+			path = DeathNote;
+			sourceTree = "<group>";
+		};
+		C3D1013F1C808A7E00BEB25E /* DeathNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3D101401C808A7E00BEB25E /* DeathNoteTests.swift */,
+				C3D101421C808A7E00BEB25E /* Info.plist */,
+			);
+			path = DeathNoteTests;
+			sourceTree = "<group>";
+		};
+		C3D1014A1C808A7E00BEB25E /* DeathNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3D1014B1C808A7E00BEB25E /* DeathNoteUITests.swift */,
+				C3D1014D1C808A7E00BEB25E /* Info.plist */,
+			);
+			path = DeathNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3D101241C808A7E00BEB25E /* DeathNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D101501C808A7E00BEB25E /* Build configuration list for PBXNativeTarget "DeathNote" */;
+			buildPhases = (
+				C3D101211C808A7E00BEB25E /* Sources */,
+				C3D101221C808A7E00BEB25E /* Frameworks */,
+				C3D101231C808A7E00BEB25E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeathNote;
+			productName = DeathNote;
+			productReference = C3D101251C808A7E00BEB25E /* DeathNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3D1013B1C808A7E00BEB25E /* DeathNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D101531C808A7E00BEB25E /* Build configuration list for PBXNativeTarget "DeathNoteTests" */;
+			buildPhases = (
+				C3D101381C808A7E00BEB25E /* Sources */,
+				C3D101391C808A7E00BEB25E /* Frameworks */,
+				C3D1013A1C808A7E00BEB25E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3D1013E1C808A7E00BEB25E /* PBXTargetDependency */,
+			);
+			name = DeathNoteTests;
+			productName = DeathNoteTests;
+			productReference = C3D1013C1C808A7E00BEB25E /* DeathNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3D101461C808A7E00BEB25E /* DeathNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3D101561C808A7E00BEB25E /* Build configuration list for PBXNativeTarget "DeathNoteUITests" */;
+			buildPhases = (
+				C3D101431C808A7E00BEB25E /* Sources */,
+				C3D101441C808A7E00BEB25E /* Frameworks */,
+				C3D101451C808A7E00BEB25E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3D101491C808A7E00BEB25E /* PBXTargetDependency */,
+			);
+			name = DeathNoteUITests;
+			productName = DeathNoteUITests;
+			productReference = C3D101471C808A7E00BEB25E /* DeathNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3D1011D1C808A7E00BEB25E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Valentin Martin";
+				TargetAttributes = {
+					C3D101241C808A7E00BEB25E = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = AJH3BX345E;
+					};
+					C3D1013B1C808A7E00BEB25E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C3D101241C808A7E00BEB25E;
+					};
+					C3D101461C808A7E00BEB25E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C3D101241C808A7E00BEB25E;
+					};
+				};
+			};
+			buildConfigurationList = C3D101201C808A7E00BEB25E /* Build configuration list for PBXProject "DeathNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3D1011C1C808A7E00BEB25E;
+			productRefGroup = C3D101261C808A7E00BEB25E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3D101241C808A7E00BEB25E /* DeathNote */,
+				C3D1013B1C808A7E00BEB25E /* DeathNoteTests */,
+				C3D101461C808A7E00BEB25E /* DeathNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3D101231C808A7E00BEB25E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D101361C808A7E00BEB25E /* LaunchScreen.storyboard in Resources */,
+				C3D101331C808A7E00BEB25E /* Assets.xcassets in Resources */,
+				C374D0BB1C833EDF003B3A12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D1013A1C808A7E00BEB25E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D101451C808A7E00BEB25E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3D101211C808A7E00BEB25E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DADF621C80B4C500A42570 /* DetailsPeople.swift in Sources */,
+				C31FD6D31C82DC6800A8D6A9 /* PositionPeople.swift in Sources */,
+				C39E6CDC1C80912700566181 /* AddName.swift in Sources */,
+				C3D101311C808A7E00BEB25E /* DeathNote.xcdatamodeld in Sources */,
+				C3D1015A1C808CF200BEB25E /* ListName.swift in Sources */,
+				C3FF19391C81942A003BD66A /* ScrollViewController.swift in Sources */,
+				C3DADF601C80A76E00A42570 /* People.swift in Sources */,
+				C3DADF681C80EEA300A42570 /* CustomCell.swift in Sources */,
+				C3FF19371C8193E3003BD66A /* ViewController.swift in Sources */,
+				C3D101291C808A7E00BEB25E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D101381C808A7E00BEB25E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D101411C808A7E00BEB25E /* DeathNoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D101431C808A7E00BEB25E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3D1014C1C808A7E00BEB25E /* DeathNoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3D1013E1C808A7E00BEB25E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3D101241C808A7E00BEB25E /* DeathNote */;
+			targetProxy = C3D1013D1C808A7E00BEB25E /* PBXContainerItemProxy */;
+		};
+		C3D101491C808A7E00BEB25E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3D101241C808A7E00BEB25E /* DeathNote */;
+			targetProxy = C3D101481C808A7E00BEB25E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3D101341C808A7E00BEB25E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3D101351C808A7E00BEB25E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3D1014E1C808A7E00BEB25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3D1014F1C808A7E00BEB25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3D101511C808A7E00BEB25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DeathNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deathnote.DeathNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		C3D101521C808A7E00BEB25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = DeathNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deathnote.DeathNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		C3D101541C808A7E00BEB25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeathNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deathnote.DeathNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeathNote.app/DeathNote";
+			};
+			name = Debug;
+		};
+		C3D101551C808A7E00BEB25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeathNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deathnote.DeathNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeathNote.app/DeathNote";
+			};
+			name = Release;
+		};
+		C3D101571C808A7E00BEB25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeathNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deathnote.DeathNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DeathNote;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C3D101581C808A7E00BEB25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeathNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deathnote.DeathNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DeathNote;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3D101201C808A7E00BEB25E /* Build configuration list for PBXProject "DeathNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D1014E1C808A7E00BEB25E /* Debug */,
+				C3D1014F1C808A7E00BEB25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D101501C808A7E00BEB25E /* Build configuration list for PBXNativeTarget "DeathNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D101511C808A7E00BEB25E /* Debug */,
+				C3D101521C808A7E00BEB25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D101531C808A7E00BEB25E /* Build configuration list for PBXNativeTarget "DeathNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D101541C808A7E00BEB25E /* Debug */,
+				C3D101551C808A7E00BEB25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3D101561C808A7E00BEB25E /* Build configuration list for PBXNativeTarget "DeathNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D101571C808A7E00BEB25E /* Debug */,
+				C3D101581C808A7E00BEB25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C3D1012F1C808A7E00BEB25E /* DeathNote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C3D101301C808A7E00BEB25E /* DeathNote.xcdatamodel */,
+			);
+			currentVersion = C3D101301C808A7E00BEB25E /* DeathNote.xcdatamodel */;
+			path = DeathNote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C3D1011D1C808A7E00BEB25E /* Project object */;
+}
